@@ -7,18 +7,29 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #121212;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ScreenUserController">
    <children>
-      <HBox alignment="CENTER_RIGHT" layoutX="141.0" prefHeight="41.0" prefWidth="600.0" spacing="10.0" style="-fx-background-color: #1F1B24;" AnchorPane.bottomAnchor="359.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <HBox alignment="CENTER_RIGHT" layoutX="-7.0" prefHeight="41.0" prefWidth="600.0" spacing="10.0" style="-fx-background-color: #1F1B24;" AnchorPane.bottomAnchor="359.0" AnchorPane.leftAnchor="-7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome, customer!" wrappingWidth="507.249005317688">
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome, user!" wrappingWidth="431.249005317688">
                <font>
                   <Font size="18.0" />
                </font>
             </Text>
-            <Button fx:id="log_out" mnemonicParsing="false" onAction="#goToScreen1" style="-fx-background-color: #0099FF;" text="Log Out" />
+            <Button mnemonicParsing="false" style="-fx-background-color: #0099FF;" text="Basket" textFill="WHITE" />
+            <Button fx:id="log_out" mnemonicParsing="false" onAction="#goToScreen1" style="-fx-background-color: #0099FF;" text="Log Out" textFill="WHITE" />
          </children>
          <padding>
             <Insets right="10.0" />
          </padding>
       </HBox>
+      <TableView layoutX="35.0" layoutY="60.0" prefHeight="279.0" prefWidth="530.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="35.0" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="65.0">
+         <columns>
+            <TableColumn prefWidth="144.19997787475586" text="Items" />
+            <TableColumn prefWidth="42.79998779296875" text="Price" />
+            <TableColumn prefWidth="41.20002746582031" text="Stock" />
+            <TableColumn prefWidth="126.5999755859375" text="Description" />
+            <TableColumn prefWidth="53.199951171875" text="View" />
+            <TableColumn prefWidth="118.800048828125" text="Add to Basket" />
+         </columns>
+      </TableView>
    </children>
 </AnchorPane>

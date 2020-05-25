@@ -22,12 +22,11 @@
       </HBox>
       <TableView layoutX="35.0" layoutY="60.0" prefHeight="279.0" prefWidth="530.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="35.0" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="65.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="Items" />
-          <TableColumn prefWidth="75.0" text="Price" />
-            <TableColumn prefWidth="75.0" text="Stock" />
-            <TableColumn prefWidth="97.20001220703125" text="Description" />
-            <TableColumn prefWidth="63.60003662109375" text="View" />
-            <TableColumn prefWidth="108.39999389648438" text="Add to Basket" />
+          <TableColumn prefWidth="150.39997100830078" text="Items" />
+          <TableColumn minWidth="0.0" prefWidth="46.5999755859375" text="Price" />
+            <TableColumn prefWidth="53.4000244140625" text="Stock" />
+            <TableColumn prefWidth="222.5999755859375" text="Description" />
+            <TableColumn prefWidth="56.800048828125" text="View" />
         </columns>
       </TableView>
    </children>

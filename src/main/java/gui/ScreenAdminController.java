@@ -25,8 +25,4 @@ public class ScreenAdminController implements Initializable, ControlledScreenI {
         myController.setScreen(Main.screenLoginID);
     }
 
-    @FXML
-    public void goToScreen2(ActionEvent event) {
-        myController.setScreen(Main.screenGuestID);
-    }
 }
