@@ -26,9 +26,9 @@ public class ScreenUserController implements Initializable, ControlledScreenI {
         myController.setScreen(Main.screenLoginID);
     }
 
-    @FXML
-    public void goToScreen4(ActionEvent event) {
-        myController.setScreen(Main.screenAdminID);
-    }
 
+    @FXML
+    public void goToBasket(ActionEvent event) {
+        myController.setScreen(Main.screenBasketID);
+    }
 }

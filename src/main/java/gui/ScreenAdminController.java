@@ -25,4 +25,10 @@ public class ScreenAdminController implements Initializable, ControlledScreenI {
         myController.setScreen(Main.screenLoginID);
     }
 
+    @FXML
+    public void addItem(ActionEvent event) {
+        System.out.println("Add Item");
+    }
+
+
 }

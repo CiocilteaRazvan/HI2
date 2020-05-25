@@ -30,7 +30,10 @@ public class Main extends Application {
     public static String screenUserFile = "src/main/java/gui/ScreenUser.fxml";
 
     public static String screenAdminID = "screen4";
-    public static String screenAdminFile = "src/main/java/gui/screenAdmin.fxml";
+    public static String screenAdminFile = "src/main/java/gui/ScreenAdmin.fxml";
+
+    public static String screenBasketID = "screen5";
+    public static String screenBasketFile = "src/main/java/gui/ScreenBasket.fxml";
 
 
 
@@ -42,6 +45,7 @@ public class Main extends Application {
         mainContainer.loadScreen(Main.screenGuestID, Main.screenGuestFile);
         mainContainer.loadScreen(Main.screenUserID, Main.screenUserFile);
         mainContainer.loadScreen(Main.screenAdminID, Main.screenAdminFile);
+        mainContainer.loadScreen(Main.screenBasketID, Main.screenBasketFile);
 
         mainContainer.setScreen(Main.screenLoginID);
 
