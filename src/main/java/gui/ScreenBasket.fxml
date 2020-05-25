@@ -21,14 +21,17 @@
                 <Insets right="10.0" />
             </padding>
         </HBox>
-        <TableView layoutX="35.0" layoutY="60.0" prefHeight="279.0" prefWidth="530.0" style="-fx-background-color: #696969;" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="35.0" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="65.0">
+        <TableView layoutX="35.0" layoutY="66.0" prefHeight="279.0" prefWidth="530.0" style="-fx-background-color: #696969;" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="35.0" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="66.0">
             <columns>
-                <TableColumn prefWidth="157.8000144958496" text="Items" />
-                <TableColumn minWidth="0.0" prefWidth="56.4000244140625" text="Price" />
-                <TableColumn prefWidth="36.40003967285156" text="Stock" />
-                <TableColumn prefWidth="151.5999755859375" text="Description" />
-                <TableColumn prefWidth="41.20001220703125" text="View" />
-                <TableColumn prefWidth="85.800048828125" text="Add to Basket" />
+                <TableColumn prefWidth="156.79998779296875" text="Items" />
+                <TableColumn minWidth="0.0" prefWidth="39.4000244140625" text="View" />
+                <TableColumn prefWidth="69.4000244140625" text="Quantity" />
+                <TableColumn minWidth="0.0" prefWidth="39.0" text="Up">
+               <columns>
+                  <TableColumn prefWidth="40.0" text="Down" />
+               </columns></TableColumn>
+                <TableColumn prefWidth="152.79998779296875" text="Description" />
+            <TableColumn prefWidth="73.5999755859375" text="Remove" />
             </columns>
         </TableView>
     </children>
