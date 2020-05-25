@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ScreenAdminController">
+   <children>
+      <Button fx:id="go_to_screen1" layoutX="178.0" layoutY="139.0" mnemonicParsing="false" onAction="#goToScreen1" text="Exit" />
+      <Button fx:id="go_to_screen2" layoutX="178.0" layoutY="187.0" mnemonicParsing="false" onAction="#goToScreen2" text="Go to Screen2" />
+      <Text layoutX="213.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is Screen4(Admin)" />
+   </children>
+</AnchorPane>
